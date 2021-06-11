@@ -7,7 +7,6 @@ function App() {
     <div>
       <Header>
         <Switch>
-          <Route path='/About' component={About} />
           <Route path='/' component={About} />
         </Switch>
       </Header>
