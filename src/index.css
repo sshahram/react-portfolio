@@ -61,3 +61,25 @@ textarea {
 	height: 120px;
 
 }
+
+/* Contact List Styles */
+
+.contact-title {
+display: block;
+margin-top: 50px;
+}
+
+.contact-info a {
+  text-decoration: underline;
+  color: blue;
+  font-size: 25px;
+  display: inline-block;
+  margin:auto;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: var(--primary-color);
+}
