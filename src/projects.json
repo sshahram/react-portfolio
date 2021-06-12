@@ -4,41 +4,47 @@
         "name": "Weather Dashboard",
         "description": "A weather dashboard displaying 'current weather condition' along with a '5-days forecast' for all searched cities by users.",
         "github": "https://github.com/sshahram/weather-dashboard",
-        "liveUrl": "https://sshahram.github.io/weather-dashboard/"
+        "liveUrl": "https://sshahram.github.io/weather-dashboard/",
+        "image": "https://github.com/sshahram/weather-dashboard/blob/main/assets/images/weather-dashboard-mockup.png"
     },
     {
         "id": 2,
         "name": "Tech Blog",
         "description": "A Full Stack Application providing a platform for users to publish technology news and share their opinions about them.",
         "github": "https://github.com/sshahram/tech-blog",
-        "liveUrl": "https://tech-blog-521.herokuapp.com/"
+        "liveUrl": "https://tech-blog-521.herokuapp.com/",
+        "image": "./src/assets/images/homepage.jpg"
     },
     {
         "id": 3,
         "name": "Password Generator",
         "description": "A 'password generator tool' that generates random passwords based on different criteria set by users.",
         "github": "https://github.com/sshahram/password-generator",
-        "liveUrl": "https://sshahram.github.io/password-generator/"
+        "liveUrl": "https://sshahram.github.io/password-generator/",
+        "image": "./src/assets/images/password-generator.png"
     },
     {
         "id": 4,
         "name": "Photo Port",
         "description": "A single-page application called Oh Snap! that uses React state, props, Hooks, and reusable UI components to provide a simple yet sleek platform for showing off photography skills",
         "github": "https://github.com/sshahram/photo-port",
-        "liveUrl": "https://sshahram.github.io/photo-port/"
+        "liveUrl": "https://sshahram.github.io/photo-port/",
+        "image": "./src/assets/images/photo-port.JPG"
     },
     {
         "id": 5,
         "name": "Pizza Hunt",
         "description": "A social-media application that connects users with each other based on their love of pizza.",
         "github": "https://github.com/sshahram/pizza-hunt",
-        "liveUrl": "https://pizza-hunt-526.herokuapp.com/"
+        "liveUrl": "https://pizza-hunt-526.herokuapp.com/",
+        "image": "./src/assets/images/pizza-hunt.jpg"
     },
     {
         "id": 6,
         "name": "Budget Tracker",
         "description": "An application to track your withdrawals and deposits with or without a data/internet connection.",
         "github": "https://github.com/sshahram/budget-tracker",
-        "liveUrl": "https://budget-tracker-521.herokuapp.com/"
+        "liveUrl": "https://budget-tracker-521.herokuapp.com/",
+        "image": "./src/assets/images/budget-tracker.png"
     }
 ]

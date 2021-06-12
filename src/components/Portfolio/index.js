@@ -14,6 +14,7 @@ const Portfolio = () => {
                                 description={project.description}
                                 github={project.github}
                                 liveUrl={project.liveUrl}
+                                image={project.image}
                             />
                         </Grid>
                     )

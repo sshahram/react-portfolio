@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function MediaCard({name, description, github, liveUrl}) {
+export default function MediaCard({name, description, github, liveUrl, image}) {
   const classes = useStyles();
 
   return (
@@ -25,7 +25,7 @@ export default function MediaCard({name, description, github, liveUrl}) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
+          image={image}
           title="Contemplative Reptile"
         />
         <CardContent>
