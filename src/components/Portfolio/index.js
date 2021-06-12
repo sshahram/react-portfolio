@@ -1,50 +1,26 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import { Grid } from '@material-ui/core';
+import projects from '../../projects.json';
+import ProjectCard from '../Project';
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 140,
-  },
-});
+const Portfolio = () => {
+    return (
+        <Grid container spacing={4}>
+            {
+                projects.map(project => {
+                    return (
+                        <Grid item xs={4} key={project.id}>
+                            <ProjectCard
+                                name={project.name}
+                                description={project.description}
+                                github={project.github}
+                                liveUrl={project.liveUrl}
+                            />
+                        </Grid>
+                    )
+                })
+            }
+        </Grid>
+    )
+};
 
-export default function MediaCard() {
-  const classes = useStyles();
-
-  return (
-    <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Project Title
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Project Description
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          GitHub
-        </Button>
-        <Button size="small" color="primary">
-          Live URL
-        </Button>
-      </CardActions>
-    </Card>
-  );
-}
+export default Portfolio;
