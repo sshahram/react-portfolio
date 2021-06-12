@@ -16,8 +16,11 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
+import WorkIcon from '@material-ui/icons/Work';
+import InfoIcon from '@material-ui/icons/Info';
+import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
+import DescriptionIcon from '@material-ui/icons/Description';
+import Icon from '@material-ui/core/Icon';
 
 const drawerWidth = 240;
 
@@ -78,6 +81,27 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// define icons
+const links = [
+  {
+    url: 'About',
+    icon: InfoIcon
+
+  },
+  {
+    url: 'Portfolio',
+    icon: WorkIcon
+  },
+  {
+    url: 'Contact',
+    icon: ContactPhoneIcon
+  },
+  {
+    url: 'Resume',
+    icon: DescriptionIcon
+  }
+]
+
 export default function PersistentDrawerLeft(props) {
   const classes = useStyles();
   const theme = useTheme();
@@ -131,14 +155,16 @@ export default function PersistentDrawerLeft(props) {
         </div>
         <Divider />
         <List>
-          {['About', 'Portfolio', 'Contact', 'Resume'].map((text, index) => (
+          {links.map((link, index) => (
             <ListItem
-                component={Link}
-                to={text}
-                button 
-                key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-              <ListItemText primary={text} />
+              component={Link}
+              to={link.url}
+              button
+              key={index}>
+              <ListItemIcon>
+                <Icon component={link.icon} />
+              </ListItemIcon>
+              <ListItemText primary={link.url} />
             </ListItem>
           ))}
         </List>
@@ -150,7 +176,7 @@ export default function PersistentDrawerLeft(props) {
         })}
       >
         <div className={classes.drawerHeader} />
-            {props.children}
+        {props.children}
       </main>
     </div>
   );
