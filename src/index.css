@@ -83,3 +83,23 @@ margin-top: 50px;
 .contact-info a:hover {
   color: var(--primary-color);
 }
+
+/* Resume Styles */
+#resume {
+  background-color: blue;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#resume:hover {
+  background-color: blueviolet;
+}
+
+.skills {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style: italic;
+}
