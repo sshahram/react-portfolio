@@ -9,15 +9,15 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div>
-      <Header>
+      <Header className="page">
         <Switch>
           <Route path='/Portfolio' component={Portfolio} />
           <Route path='/Contact' component={Contact} />
           <Route path='/Resume' component={Resume} />
           <Route path='/' component={About} />
         </Switch>
-      </Header>
       <Footer></Footer>
+      </Header>
     </div>
   );
 }

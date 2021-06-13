@@ -5,11 +5,11 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 
 
 const Footer = () => {
-  return (
-    <footer>
-        <li className="fas fa-car"></li>
-    </footer>
-  );
+    return (
+        <footer>
+            <h2>Made with ❤️ by Shirin Shahram</h2>
+        </footer>
+    );
 }
 
 export default Footer;
