@@ -44,7 +44,7 @@ input, textarea {
 
 button[type=submit] {
   width: 100%;
-  background-color: blue;
+  background-color: #9e0840;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -71,7 +71,7 @@ margin-top: 50px;
 
 .contact-info a {
   text-decoration: underline;
-  color: blue;
+  color: #9e0840;
   font-size: 25px;
   display: inline-block;
   margin:auto;
@@ -81,12 +81,12 @@ margin-top: 50px;
 }
 
 .contact-info a:hover {
-  color: var(--primary-color);
+  color: #9e0840;
 }
 
 /* Resume Styles */
 #resume {
-  background-color: blue;
+  background-color: #9e0840;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -95,7 +95,7 @@ margin-top: 50px;
 }
 
 #resume:hover {
-  background-color: blueviolet;
+  background-color: b#9e0840;
 }
 
 .skills {

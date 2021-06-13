@@ -5,7 +5,7 @@ function Resume() {
     return (
         <section>
             <h1>My Resume:</h1>
-            <a href={resume} id="resume" target="_blank">Resume</a>
+            <a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a>
             <h1>Technical Skills:</h1>
             <ul>
                 <li className="skills">Git, HTML5, CSS, JQuery, Javascript</li>
