@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     fabButton: {
-        position: 'absolute',
+        position: 'relative',
         zIndex: 0,
         top: 0,
         left: 0,

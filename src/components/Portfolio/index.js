@@ -4,7 +4,7 @@ import ProjectCard from '../Project';
 
 const Portfolio = () => {
     return (
-        <Grid container spacing={4}>
+        <Grid container spacing={3}>
             {
                 projects.map(project => {
                     return (

@@ -4,17 +4,17 @@ import resume from "../../assets/Resume-Shirin Shahram.pdf";
 function Resume() {
     return (
         <section>
-            <h1>My Resume:</h1>
-            <a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a>
-            <h1>Technical Skills:</h1>
-            <ul>
-                <li className="skills">Git, HTML5, CSS, JQuery, Javascript</li>
-                <li className="skills">Bootstrap, AJAX, Agile development</li>
-                <li className="skills">MySQL, MS SQL, Express.js, Node.js</li>
-                <li className="skills">Sequelize, React, Handlebars.js, MERN</li>
-                <li className="skills">SPSS, Tableau, Visio, Minitab, AutoCAD</li>
-                <li className="skills">R, REST APIs, MongoDB, NoSQL</li>
-            </ul>
+            <h1 className="skill-header">My Resume:</h1>
+            <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a></div>
+            <h1 className="skill-header">Technical Skills:</h1>
+            <div className="skills">
+                <p>Git, HTML5, CSS, JQuery, Javascript</p>
+                <p>Bootstrap, AJAX, Agile development</p>
+                <p>MySQL, MS SQL, Express.js, Node.js</p>
+                <p>Sequelize, React, Handlebars.js, MERN</p>
+                <p>SPSS, Tableau, Visio, Minitab, AutoCAD</p>
+                <p>R, REST APIs, MongoDB, NoSQL</p>
+            </div>
         </section>
     );
 }
