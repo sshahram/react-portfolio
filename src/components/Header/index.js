@@ -21,7 +21,6 @@ import InfoIcon from '@material-ui/icons/Info';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import DescriptionIcon from '@material-ui/icons/Description';
 import Icon from '@material-ui/core/Icon';
-import { pink } from '@material-ui/core/colors';
 
 const drawerWidth = 240;
 

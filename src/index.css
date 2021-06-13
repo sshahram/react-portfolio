@@ -124,12 +124,15 @@ footer {
   padding-bottom: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   color: white;
 }
 
-footer h2 {
-  font-size: 25px;
-  margin: 0;
+.icon-1 {
+  margin-right: 20px;
+}
+
+.icon-3 {
+  margin-left: 20px;
 }
