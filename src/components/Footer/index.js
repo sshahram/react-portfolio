@@ -48,9 +48,9 @@ export default function BottomAppBar() {
                     style={{ background: '#9e0840' }}
                 >
                     <footer>
-                        <GitHubIcon className="icon-1" />
-                        <LinkedInIcon className="icon-1 icon-3"/>
-                        <FacebookIcon className="icon-3"/>
+                        <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon className="icon-1"/></a>
+                        <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon className="icon-1 icon-3"/></a>
+                        <a href="https://www.facebook.com/shirin.shr" target="_blank" rel="noreferrer"><FacebookIcon className="icon-3"/></a>
                     </footer>
                 </Toolbar>
             </AppBar>
