@@ -7,6 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import { FilledInput } from '@material-ui/core';
 
 const useStyles = makeStyles({
   root: {
@@ -24,7 +25,7 @@ export default function MediaCard({name, description, github, liveUrl, image}) {
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
-          className={classes.media}
+          className="media-img"
           image={image}
           title="Contemplative Reptile"
         />

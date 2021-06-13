@@ -61,10 +61,10 @@ function ContactForm() {
             </form>
             <div className="contact-info">
                 <h1 className="contact-title">Contact Info:</h1>
-                <a href="tel:818.271.6615" target="_blank">Phone</a>
+                <a href="tel:818.271.6615" target="_blank" rel="noreferrer">Phone</a>
                 <a id="email" href="mailto:shirin.shahram23@gmail.com">Email</a>
-                <a href="https://github.com/sshahram" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank">Linkedin</a>
+                <a href="https://github.com/sshahram" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer">Linkedin</a>
             </div>
         </section>
     );
