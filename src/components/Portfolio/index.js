@@ -8,7 +8,7 @@ const Portfolio = () => {
             {
                 projects.map(project => {
                     return (
-                        <Grid item xs={4} key={project.id}>
+                        <Grid item xs={12} md={4} key={project.id}>
                             <ProjectCard
                                 name={project.name}
                                 description={project.description}
