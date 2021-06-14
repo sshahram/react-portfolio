@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import clsx from 'clsx';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles, useTheme, withStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';
@@ -13,14 +13,13 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import WorkIcon from '@material-ui/icons/Work';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import DescriptionIcon from '@material-ui/icons/Description';
-import Icon from '@material-ui/core/Icon';
+import MuiListItem from "@material-ui/core/ListItem";
 
 const drawerWidth = 240;
 
@@ -81,31 +80,42 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// define icons
-const links = [
-  {
-    url: 'About',
-    icon: InfoIcon
-
+const ListItem = withStyles({
+  root: {
+    "&$selected": {
+      backgroundColor: "#9e0840",
+      color: "white",
+      "& .MuiListItemIcon-root": {
+        color: "white"
+      }
+    },
+    "&$selected:hover": {
+      backgroundColor: "purple",
+      color: "white",
+      "& .MuiListItemIcon-root": {
+        color: "white"
+      }
+    },
+    "&:hover": {
+      backgroundColor: "blue",
+      color: "white",
+      "& .MuiListItemIcon-root": {
+        color: "white"
+      }
+    }
   },
-  {
-    url: 'Portfolio',
-    icon: WorkIcon
-  },
-  {
-    url: 'Contact',
-    icon: ContactPhoneIcon
-  },
-  {
-    url: 'Resume',
-    icon: DescriptionIcon
-  }
-]
+  selected: {}
+})(MuiListItem);
 
 export default function PersistentDrawerLeft(props) {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
+
+  const handleListItemClick = (event, index) => {
+    setSelectedIndex(index);
+  };
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -155,21 +165,56 @@ export default function PersistentDrawerLeft(props) {
           </IconButton>
         </div>
         <Divider />
-        <List>
-          {links.map((link, index) => (
-            <ListItem
-              component={Link}
-              to={link.url}
-              button
-              key={index}>
-              <ListItemIcon>
-                <Icon component={link.icon} />
-              </ListItemIcon>
-              <ListItemText primary={link.url} />
-            </ListItem>
-          ))}
-        </List>
-        <Divider />
+        <List component="nav" aria-label="main mailbox folders">
+        <ListItem
+          button
+          selected={selectedIndex === 0}
+          onClick={(event) => handleListItemClick(event, 0)}
+          component={Link}
+          to="About"
+        >
+          <ListItemIcon>
+            <InfoIcon />
+          </ListItemIcon>
+          <ListItemText primary="About" />
+        </ListItem>
+        <ListItem
+          button
+          selected={selectedIndex === 1}
+          onClick={(event) => handleListItemClick(event, 1)}
+          component={Link}
+          to="Portfolio"
+        >
+          <ListItemIcon>
+            <WorkIcon />
+          </ListItemIcon>
+          <ListItemText primary="Portfolio" />
+        </ListItem>
+        <ListItem
+          button
+          selected={selectedIndex === 2}
+          onClick={(event) => handleListItemClick(event, 2)}
+          component={Link}
+          to="Contact"
+        >
+          <ListItemIcon>
+            <ContactPhoneIcon />
+          </ListItemIcon>
+          <ListItemText primary="Contact" />
+        </ListItem>
+        <ListItem
+          button
+          selected={selectedIndex === 3}
+          onClick={(event) => handleListItemClick(event, 3)}
+          component={Link}
+          to="Resume"
+        >
+          <ListItemIcon>
+            <DescriptionIcon />
+          </ListItemIcon>
+          <ListItemText primary="Resume" />
+        </ListItem>
+      </List>
       </Drawer>
       <main
         className={clsx(classes.content, {
