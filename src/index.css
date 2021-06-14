@@ -90,6 +90,13 @@ margin-bottom: 0;
   background-color: #e74d85 ;
 }
 
+.error-text {
+  color: #6032a8;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
 /* Resume Styles */
 #resume {
   background-color: #9e0840;

@@ -97,7 +97,7 @@ const ListItem = withStyles({
       }
     },
     "&:hover": {
-      backgroundColor: "blue",
+      backgroundColor: "#6032a8",
       color: "white",
       "& .MuiListItemIcon-root": {
         color: "white"
