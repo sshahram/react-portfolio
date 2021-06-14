@@ -34,6 +34,10 @@ const useStyles = makeStyles((theme) => ({
         right: 0,
         margin: 'auto',
     },
+    customizeToolbar: {
+        minHeight: 10,
+        background: '#9e0840'
+    }
 }));
 
 export default function BottomAppBar() {
@@ -44,12 +48,12 @@ export default function BottomAppBar() {
 
             <AppBar position="fixed" color="primary" className={classes.appBar}>
                 <Toolbar
-                    style={{ background: '#9e0840' }}
+                    className={classes.customizeToolbar}
                 >
                     <footer>
-                        <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon className="icon-1"/></a>
-                        <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon className="icon-1 icon-3"/></a>
-                        <a href="https://www.facebook.com/shirin.shr" target="_blank" rel="noreferrer"><FacebookIcon className="icon-3"/></a>
+                        <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon style={{ fontSize: 16 }}className="icon-1" /></a>
+                        <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon style={{ fontSize: 16 }} className="icon-1 icon-3" /></a>
+                        <a href="https://www.facebook.com/shirin.shr" target="_blank" rel="noreferrer"><FacebookIcon style={{ fontSize: 16 }} className="icon-3" /></a>
                     </footer>
                 </Toolbar>
             </AppBar>

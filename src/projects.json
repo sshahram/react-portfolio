@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Photo Port",
-        "description": "A single-page application called Oh Snap! that uses React state, props, Hooks, and reusable UI components to provide a simple yet sleek platform for showing off photography skills",
+        "description": "A single-page application called Oh Snap! that uses React state, props, Hooks, and reusable UI components to provide a simple yet sleek platform for showing off photography skills.",
         "github": "https://github.com/sshahram/photo-port",
         "liveUrl": "https://sshahram.github.io/photo-port/",
         "image": "./images/photo-port.JPG"

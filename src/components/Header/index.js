@@ -78,6 +78,9 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginLeft: 0,
   },
+  customizeToolbar: {
+    minHeight: 50
+}
 }));
 
 const ListItem = withStyles({
@@ -135,7 +138,7 @@ export default function PersistentDrawerLeft(props) {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar className={classes.customizeToolbar}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
