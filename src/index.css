@@ -13,9 +13,10 @@
 }
 
 .text {
-  font-size: 15px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-family: 'Baloo Tammudu 2';
 }
 
 /* Contact Form Styles */
@@ -110,14 +111,17 @@ margin-bottom: 0;
 
 .skills {
   margin-bottom: 20px;
-  font-size: 15px;
-  font-style: italic;
+  font-size: 18px;
   text-align: center;
+  font-style: italic;
+  font-family: 'Baloo Tammudu 2';
 }
 
 .skill-header {
   margin-top:40px;
   text-align:  center;
+  font-family: 'Baloo Tammudu 2';
+  font-size: 30px;
 }
 
 /* Portfolio Styles */
