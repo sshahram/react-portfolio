@@ -11,10 +11,11 @@ function App() {
     <>
       <Header className="page">
         <Switch>
-          <Route path='/Portfolio' component={Portfolio} />
-          <Route path='/Contact' component={Contact} />
-          <Route path='/Resume' component={Resume} />
-          <Route path='/' component={About} />
+          <Route exact path='/About' component={About} />
+          <Route exact path='/' component={About} />
+          <Route exact path='/Portfolio' component={Portfolio} />
+          <Route exact path='/Contact' component={Contact} />
+          <Route exact path='/Resume' component={Resume} />
         </Switch>
       </Header>
       <Footer></Footer>
