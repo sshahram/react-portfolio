@@ -166,7 +166,33 @@ footer a {
   color:white;
 }
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 300px */
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 1024px */
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: 30px
+  }
+
+  .profile-pic {
+    margin-bottom: 40px;
+    width: 40%;
+    height: 40%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 575px */
+@media screen and (max-width: 575px) {
+  .text {
+    font-size: 18px
+  }
+
+  .profile-pic {
+    margin-bottom: 30px;
+    width: 20%;
+    height: 20%;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 375px */
 @media screen and (max-width: 375px) {
   .text {
     font-size: 15px
