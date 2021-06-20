@@ -46,7 +46,7 @@ export default function BottomAppBar() {
     return (
         <React.Fragment>
 
-            <AppBar position="fixed" color="primary" className={classes.appBar}>
+            <AppBar position="fixed" color="primary" className={`${classes.appBar} footer`}>
                 <Toolbar
                     className={classes.customizeToolbar}
                 >
