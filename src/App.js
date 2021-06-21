@@ -11,11 +11,11 @@ function App() {
     <>
       <Header className="page">
         <Switch>
-          <Route exact path='/react-portfolio/About' component={About} />
-          <Route exact path='/react-portfolio/Portfolio' component={Portfolio} />
-          <Route exact path='/react-portfolio/Contact' component={Contact} />
-          <Route exact path='/react-portfolio/Resume' component={Resume} />
-          <Route exact path='/react-portfolio' component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/About'} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Portfolio} />
+          <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + '/Resume'} component={Resume} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={About} />
         </Switch>
       </Header>
       <Footer></Footer>
