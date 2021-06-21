@@ -16,23 +16,9 @@ const useStyles = makeStyles((theme) => ({
     list: {
         marginBottom: theme.spacing(2),
     },
-    subheader: {
-        backgroundColor: theme.palette.background.paper,
-    },
     appBar: {
         top: 'auto',
         bottom: 0,
-    },
-    grow: {
-        flexGrow: 1,
-    },
-    fabButton: {
-        position: 'relative',
-        zIndex: 0,
-        top: 0,
-        left: 0,
-        right: 0,
-        margin: 'auto',
     },
     customizeToolbar: {
         minHeight: 10,
