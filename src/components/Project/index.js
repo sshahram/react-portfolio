@@ -36,14 +36,14 @@ export default function MediaCard({name, description, github, liveUrl, image}) {
             {description}
           </Typography>
         </CardContent>
-      </CardActionArea>
-      <CardActions>
         <Button size="small" color="primary">
           <a href={github}>GitHub</a>
         </Button>
         <Button size="small" color="primary">
         <a href={liveUrl}>Live Url</a>
         </Button>
+      </CardActionArea>
+      <CardActions>
       </CardActions>
     </Card>
   );
