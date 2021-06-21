@@ -125,6 +125,10 @@ margin-bottom: 0;
   font-size: 30px;
 }
 
+#myResume {
+  margin-top: 20px
+}
+
 /* Portfolio Styles */
 .media-img {
   object-fit: scale-down;
@@ -178,6 +182,14 @@ footer a {
     width: 40%;
     height: 40%;
   }
+
+  .skills {
+    font-size: 25px
+  }
+
+  .skill-header {
+    font-size: 35px
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 575px */
@@ -191,6 +203,14 @@ footer a {
     width: 20%;
     height: 20%;
   }
+
+  .skills {
+    font-size: 18px
+  }
+
+  .skill-header {
+    font-size: 25px
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER than 375px */
@@ -201,5 +221,13 @@ footer a {
 
   .profile-pic {
     margin-bottom: 20px;
+  }
+
+  .skills {
+    font-size: 15px
+  }
+
+  .skill-header {
+    font-size: 20px
   }
 }

@@ -4,7 +4,7 @@ import resume from "../../assets/Resume-Shirin Shahram.pdf";
 function Resume() {
     return (
         <section>
-            <h1 className="skill-header">My Resume:</h1>
+            <h1 className="skill-header" id="myResume">My Resume:</h1>
             <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a></div>
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
