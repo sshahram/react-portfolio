@@ -87,7 +87,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Deployed Application
 
-Please use the following link to view the deployed application on GitHub pages: [Deployed App]()
+Please use the following link to view the deployed application on GitHub pages: [Deployed App](https://sshahram.github.io/react-portfolio/)
 
 ## Questions
 
