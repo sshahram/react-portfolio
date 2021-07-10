@@ -33,11 +33,11 @@
     },
     {
         "id": 5,
-        "name": "Pizza Hunt",
-        "description": "A social-media application that connects users with each other based on their love of pizza.",
-        "github": "https://github.com/sshahram/pizza-hunt",
-        "liveUrl": "https://pizza-hunt-526.herokuapp.com/",
-        "image": "./images/pizza-hunt.jpg"
+        "name": "Monstera",
+        "description": "An application to help preventing domestic violence, enabling users to send notifications and share their live location with their friends.",
+        "github": "https://github.com/down-dive/monstera",
+        "liveUrl": "https://monstera2.herokuapp.com/",
+        "image": "./images/monstera.JPG"
     },
     {
         "id": 6,
