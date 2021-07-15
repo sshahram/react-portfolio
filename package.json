@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "http://sshahram.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
