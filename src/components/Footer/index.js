@@ -39,7 +39,6 @@ export default function BottomAppBar() {
                     <footer>
                         <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon style={{ fontSize: 16 }}className="icon-1" /></a>
                         <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon style={{ fontSize: 16 }} className="icon-1 icon-3" /></a>
-                        <a href="https://www.facebook.com/shirin.shr" target="_blank" rel="noreferrer"><FacebookIcon style={{ fontSize: 16 }} className="icon-3" /></a>
                     </footer>
                 </Toolbar>
             </AppBar>
