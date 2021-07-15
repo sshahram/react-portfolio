@@ -4,7 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import FacebookIcon from '@material-ui/icons/Facebook';
 
 const useStyles = makeStyles((theme) => ({
     text: {
@@ -37,8 +36,8 @@ export default function BottomAppBar() {
                     className={classes.customizeToolbar}
                 >
                     <footer>
-                        <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon style={{ fontSize: 16 }}className="icon-1" /></a>
-                        <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon style={{ fontSize: 16 }} className="icon-1 icon-3" /></a>
+                        <a href="https://github.com/sshahram" target="_blank" rel="noreferrer"><GitHubIcon style={{ fontSize: 17 }}className="icon-1" /></a>
+                        <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer"><LinkedInIcon style={{ fontSize: 17 }} className="icon-1 icon-3" /></a>
                     </footer>
                 </Toolbar>
             </AppBar>
