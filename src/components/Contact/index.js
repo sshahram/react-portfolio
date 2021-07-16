@@ -38,8 +38,8 @@ function ContactForm() {
     }
     return (
         <section>
-            <h1>Contact Form</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            {/* <h1>Contact Form</h1> */}
+            {/* <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
@@ -58,13 +58,13 @@ function ContactForm() {
                     </div>
                 )}
                 <button className="button-submit" type="submit">Submit</button>
-            </form>
+            </form> */}
             <div className="contact-info">
                 <h1 className="contact-title">Contact Info:</h1>
-                <a href="tel:818.271.6615" target="_blank" rel="noreferrer">Phone</a>
-                <a id="email" href="mailto:shirin.shahram23@gmail.com">Email</a>
-                <a href="https://github.com/sshahram" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer">Linkedin</a>
+                <button><a href="tel:818.271.6615" target="_blank" rel="noreferrer">Phone</a></button>
+                <button><a id="email" href="mailto:shirin.shahram23@gmail.com">Email</a></button>
+                <button><a href="https://github.com/sshahram" target="_blank" rel="noreferrer">GitHub</a></button>
+                <button><a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer">Linkedin</a></button>
             </div>
         </section>
     );
