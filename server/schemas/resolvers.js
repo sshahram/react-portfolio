@@ -6,6 +6,13 @@ const resolvers = {
         users: async() => {
             return User.findAll();
         }
+    },
+
+    Mutation: {
+        addMessage: async(parent, args) => {
+            const message = await User.create(args);
+            return message;
+        }
     }
 };
 
