@@ -3,8 +3,8 @@ const { User } = require("../models");
 const resolvers = {
     Query: {
         // get all users
-        users: async() => {
-            return User.findAll();
+        users: async(parent, args) => {
+            return User.find();
         }
     },
 

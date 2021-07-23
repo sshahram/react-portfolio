@@ -8,6 +8,10 @@ const typeDefs = gql`
         message: String
     }
 
+    type Query {
+        users: [User]
+    }
+
     type Mutation {
         addMessage(name: String!, email: String!, message: String!): User
     }
