@@ -7,6 +7,10 @@ const typeDefs = gql`
         email: String
         message: String
     }
+
+    type Mutation {
+        addMessage(name: String!, email: String!, message: String!): User
+    }
 `;
 
 module.exports = typeDefs;
