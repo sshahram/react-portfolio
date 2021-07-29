@@ -15,12 +15,19 @@ function ContactForm() {
             <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a></div>
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
-                <p>Git, HTML5, CSS, JQuery, Javascript</p>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/javascript--v2.png" alt="JavaScript"/> <p>JavaScript</p></div>
+                <img src="https://img.icons8.com/color/144/000000/nodejs.png" alt="Node.js"/> <p>Node.js</p>
+                <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="React"/> <p>React</p>
+                <img src="https://img.icons8.com/color/144/000000/mongodb.png" alt="MongoDB"/> <p>MongoDB</p>
+                <img src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt="MySQL"/> <p>MySQL</p>
+                <img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p>
+                <img src="https://img.icons8.com/color/144/000000/css3.png" alt="CSS"/> <p>CSS</p>
+                {/* <p>Git, HTML5, CSS, JQuery, Javascript</p>
                 <p>Bootstrap, AJAX, Agile development</p>
                 <p>MySQL, MS SQL, Express.js, Node.js</p>
                 <p>Sequelize, React, Handlebars.js, MERN</p>
                 <p>SPSS, Tableau, Visio, Minitab, AutoCAD</p>
-                <p>R, REST APIs, MongoDB, NoSQL</p>
+                <p>R, REST APIs, MongoDB, NoSQL</p> */}
             </div>
         </section>
     );

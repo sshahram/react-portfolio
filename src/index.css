@@ -111,6 +111,8 @@ margin-bottom: 0;
 }
 
 .skills {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
   font-size: 18px;
   text-align: center;
