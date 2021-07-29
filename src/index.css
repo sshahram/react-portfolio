@@ -110,9 +110,24 @@ margin-bottom: 0;
   background-color: #e74d85;
 }
 
+.skill-block img {
+  display: block ;
+}
+
+.skill-block p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.skill-block {
+  margin-right: 2rem;
+}
+
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5px;
   margin-bottom: 20px;
   font-size: 18px;
   text-align: center;

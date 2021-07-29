@@ -16,12 +16,12 @@ function ContactForm() {
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/javascript--v2.png" alt="JavaScript"/> <p>JavaScript</p></div>
-                <img src="https://img.icons8.com/color/144/000000/nodejs.png" alt="Node.js"/> <p>Node.js</p>
-                <img src="https://img.icons8.com/color/144/000000/react-native.png" alt="React"/> <p>React</p>
-                <img src="https://img.icons8.com/color/144/000000/mongodb.png" alt="MongoDB"/> <p>MongoDB</p>
-                <img src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt="MySQL"/> <p>MySQL</p>
-                <img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p>
-                <img src="https://img.icons8.com/color/144/000000/css3.png" alt="CSS"/> <p>CSS</p>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/nodejs.png" alt="Node.js"/> <p>Node.js</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/react-native.png" alt="React"/> <p>React</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/mongodb.png" alt="MongoDB"/> <p>MongoDB</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt="MySQL"/> <p>MySQL</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/css3.png" alt="CSS"/> <p>CSS</p></div>
                 {/* <p>Git, HTML5, CSS, JQuery, Javascript</p>
                 <p>Bootstrap, AJAX, Agile development</p>
                 <p>MySQL, MS SQL, Express.js, Node.js</p>
