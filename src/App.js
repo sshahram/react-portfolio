@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
 import Footer from './components/Footer'
 
 require('dotenv').config();
@@ -16,7 +15,6 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + '/About'} component={About} />
           <Route exact path={process.env.PUBLIC_URL + '/Portfolio'} component={Portfolio} />
           <Route exact path={process.env.PUBLIC_URL + '/Contact'} component={Contact} />
-          <Route exact path={process.env.PUBLIC_URL + '/Resume'} component={Resume} />
           <Route exact path={process.env.PUBLIC_URL + '/'} component={About} />
         </Switch>
       </Header>

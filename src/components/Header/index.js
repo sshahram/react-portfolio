@@ -18,7 +18,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import WorkIcon from '@material-ui/icons/Work';
 import InfoIcon from '@material-ui/icons/Info';
 import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
-import DescriptionIcon from '@material-ui/icons/Description';
 import MuiListItem from "@material-ui/core/ListItem";
 
 const drawerWidth = 240;
@@ -204,18 +203,6 @@ export default function PersistentDrawerLeft(props) {
             <ContactPhoneIcon />
           </ListItemIcon>
           <ListItemText primary="Contact" />
-        </ListItem>
-        <ListItem
-          button
-          selected={selectedIndex === 3}
-          onClick={(event) => handleListItemClick(event, 3)}
-          component={Link}
-          to="Resume"
-        >
-          <ListItemIcon>
-            <DescriptionIcon />
-          </ListItemIcon>
-          <ListItemText primary="Resume" />
         </ListItem>
       </List>
       </Drawer>
