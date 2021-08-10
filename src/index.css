@@ -52,22 +52,19 @@ textarea {
 
 /* Contact List Styles */
 
-.contact-title {
-display: block;
-margin-top: 15px;
-margin-bottom: 0;
-}
-
 .contact-info a {
   text-decoration: underline;
   color: #9e0840;
-  font-size: 15px;
-  display: inline-block;
-  margin:auto;
+  font-size: 25px;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
   padding: 20px;
   padding-top: 10px;
-  text-align: center;
   font-weight: bold;
+  text-align: center;
 }
 
 .contact-info a:hover {
@@ -136,7 +133,7 @@ margin-bottom: 0;
 }
 
 .skill-header {
-  margin-top:40px;
+  margin-top:5rem;
   text-align:  center;
   font-family: 'Baloo Tammudu 2';
   font-size: 30px;
