@@ -83,7 +83,7 @@ textarea {
 }
 
 /* Resume Styles */
-#resume {
+/* #resume {
   background-color: #9e0840;
   color: white;
   padding: 15px 50px;
@@ -96,11 +96,12 @@ textarea {
   transform: translate(-50%, -50%);
   font-size: 15px;
   font-weight: bold;
-}
+} */
 
 .container {
   height: 60px;
   position: relative;
+  margin-top: 3rem;
 }
 
 #resume:hover {
@@ -108,6 +109,8 @@ textarea {
 }
 
 #resume {
+  color: white;
+  padding: 15px 50px;
 	cursor: pointer;
 	position: relative;
 	position: absolute;

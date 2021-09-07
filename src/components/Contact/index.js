@@ -5,7 +5,6 @@ function ContactForm() {
     return (
         <section>
             {/* <h1 className="skill-header" id="myResume">My Resume:</h1> */}
-            <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">My Resume</a></div>
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p></div>
@@ -23,6 +22,7 @@ function ContactForm() {
                 <p>SPSS, Tableau, Visio, Minitab, AutoCAD</p>
                 <p>R, REST APIs, MongoDB, NoSQL</p> */}
             </div>
+            <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">My Resume</a></div>
             <div className="contact-info">
                 <h1 className="skill-header">Contact Info:</h1>
                 <a href="tel:818.271.6615" target="_blank" rel="noreferrer">818-271-6615</a>
