@@ -4,8 +4,8 @@ import resume from "../../assets/Resume-Shirin Shahram.pdf";
 function ContactForm() {
     return (
         <section>
-            <h1 className="skill-header" id="myResume">My Resume:</h1>
-            <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">Resume</a></div>
+            {/* <h1 className="skill-header" id="myResume">My Resume:</h1> */}
+            <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">My Resume</a></div>
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p></div>
