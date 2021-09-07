@@ -4,7 +4,6 @@ import resume from "../../assets/Resume-Shirin Shahram.pdf";
 function ContactForm() {
     return (
         <section>
-            {/* <h1 className="skill-header" id="myResume">My Resume:</h1> */}
             <h1 className="skill-header">Technical Skills:</h1>
             <div className="skills">
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p></div>
@@ -15,12 +14,6 @@ function ContactForm() {
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/mongodb.png" alt="MongoDB"/> <p>MongoDB</p></div>
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt="MySQL"/> <p>MySQL</p></div>
                 <div className="skill-block"><img src="https://img.icons8.com/ios-filled/150/4a90e2/jquery.png" alt="jQuery"/> <p>jQuery</p></div>
-                {/* <p>Git, HTML5, CSS, JQuery, Javascript</p>
-                <p>Bootstrap, AJAX, Agile development</p>
-                <p>MySQL, MS SQL, Express.js, Node.js</p>
-                <p>Sequelize, React, Handlebars.js, MERN</p>
-                <p>SPSS, Tableau, Visio, Minitab, AutoCAD</p>
-                <p>R, REST APIs, MongoDB, NoSQL</p> */}
             </div>
             <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">My Resume</a></div>
             <div className="contact-info">
