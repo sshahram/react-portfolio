@@ -15,6 +15,7 @@ function ContactForm() {
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/mysql-logo.png" alt="MySQL"/> <p>MySQL</p></div>
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/html-5--v1.png"alt="HTML"/> <p>HTML</p></div>
                 <div className="skill-block"><img src="https://img.icons8.com/color/144/000000/css3.png" alt="CSS"/> <p>CSS</p></div>
+                <div className="skill-block"><img src="https://img.icons8.com/ios-filled/150/4a90e2/jquery.png" alt="jQuery"/> <p>jQuery</p></div>
                 {/* <p>Git, HTML5, CSS, JQuery, Javascript</p>
                 <p>Bootstrap, AJAX, Agile development</p>
                 <p>MySQL, MS SQL, Express.js, Node.js</p>
