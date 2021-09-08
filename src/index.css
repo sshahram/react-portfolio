@@ -58,11 +58,11 @@ textarea {
   font-size: 25px;
   display: inline-flex;
   justify-content: center;
-  margin-right: 5rem;
+  margin-right: 7rem;
   margin-left: 5rem;
   margin-bottom: 2rem;
   padding: 20px;
-  padding-top: 10px;
+  padding-top: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -88,6 +88,7 @@ textarea {
   height: 60px;
   position: relative;
   margin-top: 3rem;
+  margin-bottom: 6rem;
 }
 
 
@@ -178,8 +179,8 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 5px;
-  margin-bottom: 20px;
+  margin-top: 3.5rem;
+  margin-bottom: 5rem;
   font-size: 18px;
   text-align: center;
   font-style: italic;
@@ -187,7 +188,8 @@ textarea {
 }
 
 .skill-header {
-  margin-top:5rem;
+  margin-top:6rem;
+  margin-bottom: 0;
   text-align:  center;
   font-family: 'Baloo Tammudu 2';
   font-size: 30px;
