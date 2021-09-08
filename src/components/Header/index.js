@@ -178,7 +178,7 @@ export default function PersistentDrawerLeft(props) {
           <ListItemIcon>
             <InfoIcon />
           </ListItemIcon>
-          <ListItemText primary="About" />
+          <ListItemText primary="About Me" />
         </ListItem>
         <ListItem
           button
@@ -202,7 +202,7 @@ export default function PersistentDrawerLeft(props) {
           <ListItemIcon>
             <ContactPhoneIcon />
           </ListItemIcon>
-          <ListItemText primary="Contact" />
+          <ListItemText primary="Contact/Resume" />
         </ListItem>
       </List>
       </Drawer>
