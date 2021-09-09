@@ -52,6 +52,10 @@ textarea {
 
 /* Contact List Styles */
 
+.contact-links {
+  text-align: center;
+}
+
 .contact-info a {
   text-decoration: underline;
   color: #9e0840;
@@ -188,7 +192,7 @@ textarea {
 }
 
 .skill-header {
-  margin-top:6rem;
+  margin-top:4rem;
   margin-bottom: 0;
   text-align:  center;
   font-family: 'Baloo Tammudu 2';

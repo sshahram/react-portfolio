@@ -18,10 +18,12 @@ function ContactForm() {
             <div className="container"><a href={resume} id="resume" target="_blank" rel="noreferrer">My Resume</a></div>
             <div className="contact-info">
                 <h1 className="skill-header">Contact Info:</h1>
-                <a href="tel:818.271.6615" target="_blank" rel="noreferrer">818-271-6615</a>
-                <a id="email" href="mailto:shirin.shahram23@gmail.com">shirin.shahram23@gmail.com</a>
-                <a href="https://github.com/sshahram" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer">LinkedIn</a>
+                <div className="contact-links">
+                    <a href="tel:818.271.6615" target="_blank" rel="noreferrer">818-271-6615</a>
+                    <a id="email" href="mailto:shirin.shahram23@gmail.com">shirin.shahram23@gmail.com</a>
+                    <a href="https://github.com/sshahram" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/shirin-shahram" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
             </div>
         </section>
     );
